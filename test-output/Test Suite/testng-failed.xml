@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Functional Login Tests(failed)">
+    <classes>
+      <class name="qaproject.tests.LoginTest">
+        <methods>
+          <include name="checkLoginPageTitle"/>
+          <include name="logintest"/>
+        </methods>
+      </class> <!-- qaproject.tests.LoginTest -->
+      <class name="qaproject.tests.CartCheckoutTest">
+        <methods>
+          <include name="checkCartPageLanding"/>
+          <include name="cartcheckoutTest"/>
+        </methods>
+      </class> <!-- qaproject.tests.CartCheckoutTest -->
+      <class name="qaproject.tests.SelectItemsForCheckoutTest">
+        <methods>
+          <include name="checkItemsSelectionPageLanding"/>
+        </methods>
+      </class> <!-- qaproject.tests.SelectItemsForCheckoutTest -->
+    </classes>
+  </test> <!-- Functional Login Tests(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->

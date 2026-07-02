@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test Suite" verbose="1">
+
+	<test name="Functional Login Tests">
+		<classes>
+			<class name="qaproject.tests.LoginTest" />
+			<class name="qaproject.tests.SelectItemsForCheckoutTest" />
+			<class name="qaproject.tests.CartCheckoutTest" />
+			<class name="qaproject.tests.DisablePasswordPopup" />
+
+
+		</classes>
+	</test>
+
+
+</suite>
