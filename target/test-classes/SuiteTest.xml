@@ -6,9 +6,6 @@
 			<class name="qaproject.tests.LoginTest" />
 			<class name="qaproject.tests.SelectItemsForCheckoutTest" />
 			<class name="qaproject.tests.CartCheckoutTest" />
-			<class name="qaproject.tests.DisablePasswordPopup" />
-
-
 		</classes>
 	</test>
 
