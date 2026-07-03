@@ -9,17 +9,17 @@
           <include name="logintest"/>
         </methods>
       </class> <!-- qaproject.tests.LoginTest -->
+      <class name="qaproject.tests.SelectItemsForCheckoutTest">
+        <methods>
+          <include name="checkItemsSelectionPageLanding"/>
+        </methods>
+      </class> <!-- qaproject.tests.SelectItemsForCheckoutTest -->
       <class name="qaproject.tests.CartCheckoutTest">
         <methods>
           <include name="checkCartPageLanding"/>
           <include name="cartcheckoutTest"/>
         </methods>
       </class> <!-- qaproject.tests.CartCheckoutTest -->
-      <class name="qaproject.tests.SelectItemsForCheckoutTest">
-        <methods>
-          <include name="checkItemsSelectionPageLanding"/>
-        </methods>
-      </class> <!-- qaproject.tests.SelectItemsForCheckoutTest -->
     </classes>
   </test> <!-- Functional Login Tests(failed) -->
 </suite> <!-- Failed suite [Test Suite] -->

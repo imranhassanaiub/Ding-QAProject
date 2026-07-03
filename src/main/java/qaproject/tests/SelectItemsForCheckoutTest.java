@@ -15,8 +15,8 @@ public class SelectItemsForCheckoutTest {
 	@Test(dependsOnMethods = "logintest", description = "Select items for checkout")
 	public void checkItemsSelectionPageLanding() {
 		driver = DriverManager.driver;
-		driver.findElement(By.xpath(ItemsSelectionPage.ItemsModule.item1)).click();
-		driver.findElement(By.xpath(ItemsSelectionPage.ItemsModule.item2)).click();
+		driver.findElement(By.id(ItemsSelectionPage.ItemsModule.item1)).click();
+		driver.findElement(By.id(ItemsSelectionPage.ItemsModule.item2)).click();
 		driver.findElement(By.xpath(ItemsSelectionPage.ItemsModule.cart)).click();
 
 	}

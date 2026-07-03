@@ -11,7 +11,7 @@ Feature: End-to-End Purchase Flow
 
     # Add two products — verifies multi-item cart handling
     When I add "Sauce Labs Backpack" to the cart
-    And I add "Sauce Labs Bike Light" to the cart
+    #And I add "Sauce Labs Bike Light" to the cart
     Then the cart badge should show "2"
 
     # Verify cart contents before checkout

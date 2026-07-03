@@ -22,8 +22,8 @@ public class LoginTest {
 
 	@Test(dependsOnMethods = "checkLoginPageTitle")
 	public void logintest() {
-		driver.findElement(By.xpath(LoginPage.LoginModule.user_name)).sendKeys("standard_user");
-        driver.findElement(By.xpath(LoginPage.LoginModule.password)).sendKeys("secret_sauce");
+		driver.findElement(By.xpath(LoginPage.LoginModule.user_name)).sendKeys(LoginPage.LoginModule.loginusername);
+        driver.findElement(By.xpath(LoginPage.LoginModule.password)).sendKeys(LoginPage.LoginModule.loginpassword);
         driver.findElement(By.xpath(LoginPage.LoginModule.signIN_BTN)).click();
 	}
 
