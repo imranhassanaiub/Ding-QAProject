@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-04T12:49:01 GMT+06:00" name="Test Suite" finished-at="2026-07-04T12:49:05 GMT+06:00" duration-ms="3702">
+  <suite started-at="2026-07-04T12:55:35 GMT+06:00" name="Test Suite" finished-at="2026-07-04T12:55:39 GMT+06:00" duration-ms="3911">
     <groups>
     </groups>
-    <test started-at="2026-07-04T12:49:01 GMT+06:00" name="Functional Login Tests" finished-at="2026-07-04T12:49:05 GMT+06:00" duration-ms="3702">
+    <test started-at="2026-07-04T12:55:35 GMT+06:00" name="Functional Login Tests" finished-at="2026-07-04T12:55:39 GMT+06:00" duration-ms="3911">
       <class name="qaproject.tests.LoginTest">
-        <test-method signature="checkLoginPageTitle()[pri:0, instance:qaproject.tests.LoginTest@43195e57]" started-at="2026-07-04T12:49:01 GMT+06:00" name="checkLoginPageTitle" finished-at="2026-07-04T12:49:04 GMT+06:00" duration-ms="3074" status="PASS">
+        <test-method signature="checkLoginPageTitle()[pri:0, instance:qaproject.tests.LoginTest@43195e57]" started-at="2026-07-04T12:55:35 GMT+06:00" name="checkLoginPageTitle" finished-at="2026-07-04T12:55:38 GMT+06:00" duration-ms="3159" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkLoginPageTitle -->
-        <test-method signature="logintest()[pri:0, instance:qaproject.tests.LoginTest@43195e57]" started-at="2026-07-04T12:49:04 GMT+06:00" name="logintest" finished-at="2026-07-04T12:49:05 GMT+06:00" depends-on-methods="qaproject.tests.LoginTest.checkLoginPageTitle" duration-ms="189" status="PASS">
+        <test-method signature="logintest()[pri:0, instance:qaproject.tests.LoginTest@43195e57]" started-at="2026-07-04T12:55:38 GMT+06:00" name="logintest" finished-at="2026-07-04T12:55:39 GMT+06:00" depends-on-methods="qaproject.tests.LoginTest.checkLoginPageTitle" duration-ms="282" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintest -->
       </class> <!-- qaproject.tests.LoginTest -->
       <class name="qaproject.tests.CartCheckoutTest">
-        <test-method signature="checkCartPageLanding()[pri:0, instance:qaproject.tests.CartCheckoutTest@795cd85e]" started-at="2026-07-04T12:49:05 GMT+06:00" name="checkCartPageLanding" description="Check Cart Page Landing" finished-at="2026-07-04T12:49:05 GMT+06:00" depends-on-methods="checkItemsSelectionPageLanding" duration-ms="8" status="PASS">
+        <test-method signature="checkCartPageLanding()[pri:0, instance:qaproject.tests.CartCheckoutTest@795cd85e]" started-at="2026-07-04T12:55:39 GMT+06:00" name="checkCartPageLanding" description="Check Cart Page Landing" finished-at="2026-07-04T12:55:39 GMT+06:00" depends-on-methods="checkItemsSelectionPageLanding" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkCartPageLanding -->
-        <test-method signature="cartcheckoutTest()[pri:0, instance:qaproject.tests.CartCheckoutTest@795cd85e]" started-at="2026-07-04T12:49:05 GMT+06:00" name="cartcheckoutTest" description="Click Checkout Button" finished-at="2026-07-04T12:49:05 GMT+06:00" depends-on-methods="qaproject.tests.CartCheckoutTest.checkCartPageLanding" duration-ms="282" status="PASS">
+        <test-method signature="cartcheckoutTest()[pri:0, instance:qaproject.tests.CartCheckoutTest@795cd85e]" started-at="2026-07-04T12:55:39 GMT+06:00" name="cartcheckoutTest" description="Click Checkout Button" finished-at="2026-07-04T12:55:39 GMT+06:00" depends-on-methods="qaproject.tests.CartCheckoutTest.checkCartPageLanding" duration-ms="235" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cartcheckoutTest -->
       </class> <!-- qaproject.tests.CartCheckoutTest -->
       <class name="qaproject.tests.SelectItemsForCheckoutTest">
-        <test-method signature="checkItemsSelectionPageLanding()[pri:0, instance:qaproject.tests.SelectItemsForCheckoutTest@402bba4f]" started-at="2026-07-04T12:49:05 GMT+06:00" name="checkItemsSelectionPageLanding" description="Select items for checkout" finished-at="2026-07-04T12:49:05 GMT+06:00" depends-on-methods="logintest" duration-ms="124" status="PASS">
+        <test-method signature="checkItemsSelectionPageLanding()[pri:0, instance:qaproject.tests.SelectItemsForCheckoutTest@402bba4f]" started-at="2026-07-04T12:55:39 GMT+06:00" name="checkItemsSelectionPageLanding" description="Select items for checkout" finished-at="2026-07-04T12:55:39 GMT+06:00" depends-on-methods="logintest" duration-ms="192" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkItemsSelectionPageLanding -->
